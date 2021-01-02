@@ -1,6 +1,5 @@
 // import logo from './images/unknown.jpg';
-import React,{useEffect} from 'react'
-import firebase from './configs/firebase'
+import React from 'react'
 import './App.css';
 import Routers from './configs/router'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'

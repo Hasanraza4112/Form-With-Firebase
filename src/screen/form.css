@@ -6,13 +6,13 @@ margin: 0 auto;;
 
 }
 .main{
-  display: flex;
-  flex-wrap: wrap;
+  display: flex !important;
+  flex-wrap: wrap !important;
 
 }
 .cards{
-  width: 200px;;
-padding: 5px;
+  width: 200px !important;
+padding: 5px !important;
 
 }
 .lists{
@@ -60,21 +60,7 @@ hr {
 }
 
 /* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  /* padding: 14px 20px; */
-  /* margin: 8px 0; */
-  /* width: 80% !important; */
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
 
-button:hover {
-  opacity:1;
-}
 
 /* Extra styles for the cancel button */
 .cancelbtn {
@@ -105,4 +91,32 @@ button:hover {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+}
+.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navi_list {
+  float: left;
+}
+
+li a {
+  display: block !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 14px 16px !important;
+  text-decoration: none !important;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navi a:hover {
+  background-color: #111;
+  cursor: pointer;
+}
+.active{
+  background-color: rgb(17, 16, 16);
 }
